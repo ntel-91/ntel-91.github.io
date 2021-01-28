@@ -6,16 +6,77 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Portfolio</title>
         <meta name="Personal Website" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
-            <div class="sidebar">Sidebar</div>
-            <div class="content">Main Content</div>
-        </div>
+        <nav class="site-nav grid">
+            <h1>Nick Telenson</h1>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="welcome" class="grid">
+            <div class="welcome-text">
+                <h2>Coder<br />& Outdoor Enthusiast</h2>
+                <p class="leading">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <a href="#portfolio" class="button">View My Work</a>
+                <div class="welcome-img">
+                    <img src="public/koala-webiset.jpg" alt="pic">
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h3>Some of my Projects</h3>
+        </section>
+        <section>
+            <div class="projects grid">
+                <a href="">
+                    <img src="public/koala-webiset.jpg" alt="project1" style="width: 250px; height:250px">
+                    <h4>Project 1</h4>
+                </a>
+                <a href="">
+                    <img src="public/koala-webiset.jpg" alt="project2" style="width: 250px; height:250px">
+                    <h4>Project 2</h4>
+                </a>
+                <a href="">
+                    <img src="public/koala-webiset.jpg" alt="project3" style="width: 250px; height:250px">
+                    <h4>Project 3</h4>
+                </a>
+            </div>
+        </section>
+        <section id="skills">
+            <h3>things i can do</h3>
+            <ul class="grid">
+                <li><h4>Javasript</h4></li>
+                <li><h4>React</h4></li>
+                <li><h4>React Native</h4></li>
+                <li><h4>Spring Boot</h4></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h3>Get In Touch</h3>
+            <p class="leading">Lorem ipsom</p>
+            <form>
+                <input type="text" placeholder="NAME">
+                <input type="email" placeholder="EMAIL">
+                <textarea placeholder="YOUR MESSAGE"></textarea>
+                <button class="button">Send Message</button>
+            </form>
+        </section>
+        <footer>
+            <div class="grid">
+                <p class="copyright">Copyright 2021 ntel-91</p>
+                <ul class="social">
+                    <li><a href=""><img src="public/GitHub-Mark-32px.png" alt="github"></a></li>
+                    <li><a href=""><img src="public/GitHub-Mark-32px.png" alt="github"></a></li>
+                </ul>
+            </div>
+        </footer>
         <script src="" async defer></script>
     </body>
 </html>
